@@ -9,6 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+<<<<<<< HEAD
 
 
 
@@ -199,3 +200,26 @@ body {
     font-size: 0.7rem;
 }
 
+=======
+/*--------------footer------------*/
+footer{
+  background-color: aliceblue;
+}
+
+.foot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 20px;
+}
+.texte{
+  display: flex;
+  justify-content: center;
+}
+>>>>>>> 8b574763ec36a1c8aa7f13df9560c80291654885
