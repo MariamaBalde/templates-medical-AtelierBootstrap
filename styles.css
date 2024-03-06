@@ -9,7 +9,6 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-<<<<<<< HEAD
 
 
 
@@ -202,8 +201,7 @@ body {
     font-size: 0.7rem;
 }
 
-<<<<<<< HEAD
-=======
+
 /*--------------footer------------*/
 footer{
   background-color: aliceblue;
@@ -225,8 +223,7 @@ footer{
   display: flex;
   justify-content: center;
 }
->>>>>>> 8b574763ec36a1c8aa7f13df9560c80291654885
-=======
+
 .pricing_wrapper .icon{
     width: 100px;
     height: 100px;
@@ -264,5 +261,3 @@ footer{
 .pricing_wrapper .second{
     margin: 100px 0;
 }
-
->>>>>>> 18d7715a7d474098bf536ae89c06bd3fc343e8b1
