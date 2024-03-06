@@ -77,14 +77,16 @@ body {
 
 .product_wrapper h6,
 .product_wrapper2 a,
-.product_wrapper3 h6{
+.product_wrapper3 h6,
+.pricing_wrapper h6{
     font-size: 16px;
     font-weight: 600;
 }
 
 .product_wrapper p,
 .product_wrapper2 p,
-.product_wrapper3 p{
+.product_wrapper3 p,
+.pricing_wrapper p{
     font-size: 16px;
     font-weight: 600;
 }
@@ -197,5 +199,43 @@ body {
 
 .product_wrapper3 .contenu p{
     font-size: 0.7rem;
+}
+
+.pricing_wrapper .icon{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pricing_wrapper .card-subtitle{
+    font-size: 0.7rem;
+}
+
+.pricing_wrapper .card-body p a{
+   width: 35px;
+    height: 35px;
+    line-height: 32px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pricing_wrapper .valeur{
+    font-size: 1rem;
+}
+
+.pricing_wrapper .valeur span{
+    font-size: 1.5rem;
+}
+
+.pricing_wrapper{
+    margin: 250px 0;
+}
+
+.pricing_wrapper .second{
+    margin: 100px 0;
 }
 
