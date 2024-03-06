@@ -78,7 +78,9 @@ body {
 .product_wrapper h6,
 .product_wrapper2 a,
 .product_wrapper3 h6,
-.pricing_wrapper h6{
+.pricing_wrapper h6,
+.pricing_wrapper2 h6,
+.pricing_wrapper3 h6{
     font-size: 16px;
     font-weight: 600;
 }
@@ -86,7 +88,9 @@ body {
 .product_wrapper p,
 .product_wrapper2 p,
 .product_wrapper3 p,
-.pricing_wrapper p{
+.pricing_wrapper p,
+.pricing_wrapper2 p,
+.pricing_wrapper3 p{
     font-size: 16px;
     font-weight: 600;
 }
@@ -254,10 +258,17 @@ footer{
     font-size: 1.5rem;
 }
 
-.pricing_wrapper{
+.pricing_wrapper,
+.pricing_wrapper2{
     margin: 250px 0;
 }
 
 .pricing_wrapper .second{
     margin: 100px 0;
+}
+
+.pricing_wrapper4 p,
+.Footer_wrapper .para{
+    font-size: 0.7rem;
+    font-weight: bold;
 }
