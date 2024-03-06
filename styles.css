@@ -9,6 +9,20 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+/* .ki{
+  margin-top: 150px;
+} */
+ul{
+  list-style: none;
+  font-size: 0,5rem;
+}
+
+/*--------------formulaire------------*/
+.lo{
+  width: 400px;
+  margin: auto;
+}
+
 /*--------------footer------------*/
 footer{
   background-color: aliceblue;
@@ -20,6 +34,10 @@ footer{
   justify-content: center;
   justify-content: space-around;
 }
+.foot p{
+  font-size: 0,3rem;
+  
+}
 .icon{
   display: flex;
   flex-wrap: wrap;
@@ -29,4 +47,15 @@ footer{
 .texte{
   display: flex;
   justify-content: center;
+}
+/*-- Pricing_wrapper --*/
+.tour{
+  margin-right: 10px;
+}
+
+
+
+
+.para{
+  font-size: 0,5rem;
 }
