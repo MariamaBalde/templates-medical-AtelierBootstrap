@@ -10,79 +10,81 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* ---------------------------------------------------Navbar------------------------------------------------------------- */
 
-
- .navbar-nav .nav-item {
-    margin: 0 10px;
+.navbar-nav .nav-item {
+  margin: 0 10px;
 }
 
 .navbar-nav .nav-item .nav-link {
-    font-size: 15px;
-    font-weight: 600;
+  font-size: 15px;
+  font-weight: 600;
   color: gray;
 }
 
-.navbar-nav form .btn{
+.navbar-nav form .btn {
   font-size: 16px;
 }
 
-.home_wrapper p{
-    font-size: 19px;
-    font-weight: 600;
+/* ---------------------------------------------------Home_wrapper------------------------------------------------------------- */
+
+.home_wrapper p {
+  font-size: 19px;
+  font-weight: 600;
 }
 
-
- 
-.home_wrapper .btn{
-    font-size: 16px;
-    font-weight: 500;
+.home_wrapper .btn {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.home_wrapper .card{
-    border-bottom-left-radius: 100px;
+.home_wrapper .card {
+  border-bottom-left-radius: 100px;
 }
 
-.home_wrapper .card img{
-    width: 450px;
-    margin: auto;
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius:25px ;
-    border-bottom-right-radius:25px ;
+.home_wrapper .card img {
+  width: 450px;
+  margin: auto;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
-.home_wrapper{
-    position: relative;
-    overflow: hidden;
+.home_wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
-.home_wrapper .Cont{
-    position: relative;
-    /* overflow: hidden; */
+.home_wrapper .Cont {
+  position: relative;
+  /* overflow: hidden; */
 }
 
-.home_wrapper .Cont .img1{
-   position: absolute;
-   bottom: 200px;
-   left: -15px;
-   right: 0;
+.home_wrapper .Cont .img1 {
+  position: absolute;
+  bottom: 200px;
+  left: -15px;
+  right: 0;
 }
 
-.home_wrapper .Cont .img2{
-   position: absolute;
-   bottom: 10px;
-   left: -10px;
-   right: 0;
+.home_wrapper .Cont .img2 {
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+  right: 0;
 }
+
+/* ---------------------------------------------------Product_wrapper------------------------------------------------------------- */
 
 .product_wrapper h6,
 .product_wrapper2 a,
 .product_wrapper3 h6,
 .pricing_wrapper h6,
 .pricing_wrapper2 h6,
-.pricing_wrapper3 h6{
-    font-size: 16px;
-    font-weight: 600;
+.pricing_wrapper3 h6 {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .product_wrapper p,
@@ -90,185 +92,180 @@ body {
 .product_wrapper3 p,
 .pricing_wrapper p,
 .pricing_wrapper2 p,
-.pricing_wrapper3 p{
-    font-size: 16px;
-    font-weight: 600;
+.pricing_wrapper3 p {
+  font-size: 16px;
+  font-weight: 600;
 }
 
-
-.product_wrapper .card{
-    font-size: 18px;
+.product_wrapper .card {
+  font-size: 18px;
 }
 
-.product_wrapper .card .card-text{
-        font-size: 0.7rem;
+.product_wrapper .card .card-text {
+  font-size: 0.7rem;
 }
 
-
-.product_wrapper2 a i{
-    font-size: 0.6rem;
+.product_wrapper2 a i {
+  font-size: 0.6rem;
 }
 
-.product_wrapper2 .border{
-    width: 95px;
+.product_wrapper2 .border {
+  width: 95px;
 }
 
-.product_wrapper2 .img-labo{
-    width: 300px;
-    height: 300px;
-    border-radius: 0 150px 150px 150px;
+.product_wrapper2 .img-labo {
+  width: 300px;
+  height: 300px;
+  border-radius: 0 150px 150px 150px;
 }
 
-
-.product_wrapper2{
-    padding: 150px 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.product_wrapper2 .second{
-    position: relative;
-    /* overflow: hidden; */
-}
-
-.product_wrapper2 .second .img1{
-   position: absolute;
-   bottom: 150px;
-   left: 280px;
-}
-
-.product_wrapper2 .second .img2{
-   position: absolute;
-   bottom: 10px;
-   left: 200px;
-}
-
-.product_wrapper3 .firstspan{
- 
-}
-
-.product_wrapper3 .doctor .card{
+.product_wrapper2 {
+  padding: 150px 0;
   position: relative;
   overflow: hidden;
 }
 
-
-.product_wrapper3 .doctor .firstspan{
-    position: absolute;
-    top: 20px;
-    left: 15px;
-    font-size: 0.7rem;
-    text-align: center;
-    width: 50px;
+.product_wrapper2 .second {
+  position: relative;
 }
 
+.product_wrapper2 .second .img1 {
+  position: absolute;
+  bottom: 150px;
+  left: 280px;
+}
+
+.product_wrapper2 .second .img2 {
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+}
+
+.product_wrapper3 .firstspan {
+}
+
+.product_wrapper3 .doctor .card {
+  position: relative;
+  overflow: hidden;
+}
+
+.product_wrapper3 .doctor .firstspan {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 0.7rem;
+  text-align: center;
+  width: 50px;
+}
 
 .product_wrapper3 .social-icon li {
-    margin: 6px;
+  margin: 6px;
 }
 
 .product_wrapper3 .social-icon a {
-    width: 35px;
-    height: 35px;
-    line-height: 32px;
-    font-size: 14px;
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid white;
-    color: black;
-    text-align: center;
-    border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  font-size: 14px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+  color: black;
+  text-align: center;
+  border-radius: 100%;
 }
 
-.product_wrapper3 .social-icon{
-    position: absolute;
-    top: 285px;
-    left: 100px;
+.product_wrapper3 .social-icon {
+  position: absolute;
+  top: 285px;
+  left: 100px;
 }
 
-.product_wrapper3 .card-title{
-    font-size: 0.7rem;
+.product_wrapper3 .card-title {
+  font-size: 0.7rem;
 }
 
-.product_wrapper3 .card-title span{
-    font-size: 0.6rem;
-    padding: 5px 10px 0 0;
-    width: 50px;
-    height: 25px;
+.product_wrapper3 .card-title span {
+  font-size: 0.6rem;
+  padding: 5px 10px 0 0;
+  width: 50px;
+  height: 25px;
 }
 
-.product_wrapper3 .card-text{
-    font-size: 0.7rem;
+.product_wrapper3 .card-text {
+  font-size: 0.7rem;
 }
 
-.product_wrapper3 .contenu p{
-    font-size: 0.7rem;
+.product_wrapper3 .contenu p {
+  font-size: 0.7rem;
 }
 
+/* ---------------------------------------------------Pricing_wrapper------------------------------------------------------------- */
 
-/*--------------footer------------*/
-footer{
+.pricing_wrapper .icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.pricing_wrapper .card-subtitle {
+  font-size: 0.7rem;
+}
+
+.pricing_wrapper .card-body p a {
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+
+.pricing_wrapper .valeur {
+  font-size: 1rem;
+}
+
+.pricing_wrapper .valeur span {
+  font-size: 1.5rem;
+}
+
+.pricing_wrapper,
+.pricing_wrapper2 {
+  margin: 250px 0;
+}
+
+.pricing_wrapper .second {
+  margin: 100px 0;
+}
+
+.pricing_wrapper4 p,
+.Footer_wrapper .para {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------Footer------------------------------------------------------------- */
+
+footer {
   background-color: aliceblue;
 }
 
-.foot{
+.foot {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
 }
-.icon{
+.icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
   gap: 20px;
 }
-.texte{
+.texte {
   display: flex;
   justify-content: center;
-}
-
-.pricing_wrapper .icon{
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-}
-
-.pricing_wrapper .card-subtitle{
-    font-size: 0.7rem;
-}
-
-.pricing_wrapper .card-body p a{
-   width: 35px;
-    height: 35px;
-    line-height: 32px;
-    font-size: 14px;
-    display: inline-block;
-    text-align: center;
-}
-
-.pricing_wrapper .valeur{
-    font-size: 1rem;
-}
-
-.pricing_wrapper .valeur span{
-    font-size: 1.5rem;
-}
-
-.pricing_wrapper,
-.pricing_wrapper2{
-    margin: 250px 0;
-}
-
-.pricing_wrapper .second{
-    margin: 100px 0;
-}
-
-.pricing_wrapper4 p,
-.Footer_wrapper .para{
-    font-size: 0.7rem;
-    font-weight: bold;
 }
